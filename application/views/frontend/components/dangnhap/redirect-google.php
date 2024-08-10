@@ -18,8 +18,8 @@
      */
     require_once 'google-api-php-client-2.4.0/google/vendor/autoload.php';
     $client = new Google_Client();
-    $client->setClientId('657412202004-iih5ap2dkvtmsfa0osi4hicnkd82le5c.apps.googleusercontent.com');
-    $client->setClientSecret('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');
+    $client->setClientId('clientID');
+    $client->setClientSecret('serect');
     $client->setRedirectUri('http://localhost:8080/tempo/dangnhap/ggcallback');
     $client->addScope("email");
     $client->addScope("profile");
